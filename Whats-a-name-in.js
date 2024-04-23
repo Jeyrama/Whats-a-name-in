@@ -54,3 +54,5 @@ function nameInStr(str, name){
   
   return index === name.length
 }
+
+// or

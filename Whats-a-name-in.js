@@ -56,3 +56,17 @@ function nameInStr(str, name){
 }
 
 // or
+
+function nameInStr(str, name){
+  let newArr = [];
+  name = name.toLowerCase();
+  for(let i=0; i < name.length; i++){
+      if (str.includes(name[i])){
+        newArr.push(true);
+        str = str.slice(str.indexOf(name[i])+1);
+      }else{
+        newArr.push(false);
+      }
+  } 
+  return newArr.reduce((a,b) => a && b);
+}

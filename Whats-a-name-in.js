@@ -35,7 +35,8 @@ Examples:
   "A live son", "Allison" --> false
    ^ ^^   ^^^
    A li   son
-  Contains all of the correct letters in "Allison", in order, but not enough of all of them (missing an 'l').
+  Contains all of the correct letters in "Allison", in order, but not enough of all of them 
+  (missing an 'l').
 */
 
 
